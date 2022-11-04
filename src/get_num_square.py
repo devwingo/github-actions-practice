@@ -12,4 +12,5 @@ else:
     num = 1
 
 # to set output, print to shell in following syntax
+# this set-output is deprecated. throws warning
 print(f"::set-output name=num_squared::{num ** 2}")
